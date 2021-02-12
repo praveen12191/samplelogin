@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link href="demo.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="back">
+            <div class="iner-box">
+                <div class="puts">
+                    <div id="color"></div>
+                    <button class="but" onclick="login()">login</button>
+                    <button class="but"onclick="register()" >register</button>
+                </div>
+                <div id="login" class="info">
+                    <input type="text"class="name"  placeholder="User name" required>
+                    <input type="password"class="name"  placeholder="password" required>
+                    <input type="checkbox" class="box"><span>Remember password</span>
+                    <button class="logbut" type="submit">login</button>
+                    
+                </div>
+                <div id="register" class="info">
+                    <input type="text"class="name"  placeholder='user name' required>
+                    <input type="text"class="name"  placeholder="Email" required>
+                    <input type="password"class="name"  placeholder="password" required>
+                    <input type="checkbox" class="box"><span>I'm agree to this</span>
+                    <button class="logbut" type="submit">register</button>
+                    
+                </div>
+            
+        </div>
+                
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("color");
+    function register(){
+        x.style.left ="400px";
+        y.style.left ="50";
+         z.style.left ="110px";
+
+    }
+    function login(){
+        x.style.left ="50px";
+        y.style.left ="450px";
+        z.style.left ="0"
+     
+    }
+    
+</script>
+
+        </div>
+    </body>
+</html>

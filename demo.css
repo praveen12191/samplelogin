@@ -1,0 +1,91 @@
+.back{
+    width: 100%;
+    height: 100%;
+    background-image: url(pexels-andy-vu-3244513.jpg);
+    background: black;
+    position: absolute;
+
+}
+.iner-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background-color: white;
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+}
+    
+.puts{
+    margin: 30px auto; 
+    width: 220px;
+    box-shadow: 0 0 20px 9px #ff61241f ;
+    border-radius: 30px;
+    position: relative;
+    
+}
+.but{
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    
+}
+#color{
+   top: 0;
+   left: 0;
+   border-radius: 30px;
+   background: linear-gradient(to right,rgb(231, 58, 58),rgb(219, 219, 131));
+   width: 110px;
+   height: 100%;
+   position: absolute;
+       
+}
+.info{
+    top: 180px;
+    
+    position: absolute;
+    width: 280px;
+}
+.name{
+    width: 100%;
+    padding:10px 0;
+    margin: 15px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+    outline: 0;
+}
+.box{
+    margin:30px 10px 30px 0;
+}
+span{
+
+    font-style: oblique;
+    position: absolute;
+    bottom: 65px;
+    
+}
+.logbut{
+
+    width: 300px;
+    cursor: pointer;
+    
+    margin-left: 10px;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right,rgb(231, 58, 58),rgb(219, 219, 131));
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+
+    
