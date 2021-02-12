@@ -1,0 +1,27 @@
+body{
+    
+    background-color: url('simon-berger-aZjw7xI3QAA-unsplash.jpg');
+    
+}
+#top{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+   
+    
+}
+#content{
+    padding: 20px;
+   
+    background-color: rosybrown;
+   
+
+}
+#content:hover{
+    cursor: pointer;
+    background-color: rgb(117, 113, 104);
+    border-radius: 20px;
+}
